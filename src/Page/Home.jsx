@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <div className="font-jost ">
-        <div className=" bg-[url('./Pic.jpg')] bg-center bg-cover flex items-center h-screen px-4 lg:px-40">
+        <div style={{backgroundImage:"url('./Pic.jpg')"}} className="  bg-center bg-cover flex items-center h-screen px-4 lg:px-40">
           <div>
             <h3 className="font-bold text-2xl text-white">New Collection</h3>
             <h1 className="font-bold text-5xl mt-5 text-white">Luxury without <br /> Labels</h1>
