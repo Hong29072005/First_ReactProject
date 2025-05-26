@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router'
 import { useState,useEffect } from 'react'
 import axios from 'axios'
 const ProductDetail = () => {
